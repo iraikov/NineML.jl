@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NineML xmlns="http://nineml.incf.org/9ML/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nineml.incf.org/9ML/1.0/NineML_v1.0.xsd">
+
+    <Component name="IaF_Iext10">
+
+      <Definition url="IaF.xml">IaF_Iext10</Definition>
+
+      <Property name="tau">
+        <Quantity><SingleValue>20.0</SingleValue></Quantity>
+      </Property>
+
+      <Property name="tau_rp">
+        <Quantity><SingleValue>2.0</SingleValue></Quantity>
+      </Property>
+      
+      <Property name="theta">
+        <Quantity><SingleValue>20.0</SingleValue></Quantity>
+      </Property>
+      
+      <Property name="Vreset">
+        <Quantity><SingleValue>0.0</SingleValue></Quantity>
+      </Property>
+      
+      <Property name="R">
+        <Quantity><SingleValue>10.0</SingleValue></Quantity>
+      </Property>
+
+      <Property name="Iext">
+        <Quantity><SingleValue>5.0</SingleValue></Quantity>
+      </Property>
+
+      <Property name="Isyn">
+        <Quantity><SingleValue>0.0</SingleValue></Quantity>
+      </Property>
+
+      <Initial name="V">
+        <Quantity><SingleValue>-20.0</SingleValue></Quantity>
+      </Initial>
+      
+    </Component>
+
+</NineML>
